@@ -47,9 +47,12 @@ public class Ejecutor {
                     ingresarPrestamoEducativo(pB, mesesP, ciudad);
                     break;
                 default:
+                    System.out.println("\nOpción incorrecta.");
                     opcion2 = 1;
                     break;
             }
+            System.out.println("\nSi desea realiazr5 una nueva acción "
+                    + "digite 0 (cero), caso contrario digite cualquier numero");
             opcion2 = sc.nextInt();
         } while (opcion2 != 0);
     }
